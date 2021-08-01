@@ -29,9 +29,9 @@ $(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, vendor/omni/config/gsm.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := 2720 Flip
+PRODUCT_DEVICE := beatles
 PRODUCT_NAME := omni_beatles
 PRODUCT_BRAND := Nokia
 PRODUCT_MODEL := 2720 Flip
-PRODUCT_MANUFACTURER := hmd
+PRODUCT_MANUFACTURER := nokia
 PRODUCT_RELEASE_NAME := Nokia 2720 Flip
