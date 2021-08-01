@@ -16,7 +16,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/hmd/beatles
+DEVICE_PATH := device/nokia/beatles
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -54,7 +54,7 @@ BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_KERNEL_IMAGE_NAME := zImage-dtb
 TARGET_KERNEL_ARCH := arm
 TARGET_KERNEL_HEADER_ARCH := arm
-#TARGET_KERNEL_SOURCE := kernel/hmd/Nokia 2720 Flip
+#TARGET_KERNEL_SOURCE := kernel/nokia/beatles
 #TARGET_KERNEL_CONFIG := beatles_defconfig
 
 # Platform
@@ -66,7 +66,7 @@ TARGET_BOARD_PLATFORM := msm8909
 #PLATFORM_VERSION := 16.1.0
 
 # TWRP Configuration
-#TW_THEME := portrait_hdpi
+TW_THEME := portrait_mdpi
 TW_EXTRA_LANGUAGES := true
 TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
