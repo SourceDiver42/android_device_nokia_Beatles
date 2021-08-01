@@ -16,5 +16,5 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/hmd/beatles
+LOCAL_PATH := device/nokia/beatles
 
